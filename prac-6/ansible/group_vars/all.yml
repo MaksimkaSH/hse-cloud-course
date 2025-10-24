@@ -1,0 +1,7 @@
+app_name: flaskapp
+app_user: flaskapp
+app_dir: /opt/flaskapp
+app_port: 8000
+nginx_listen_port: 80
+
+server_name: "_"   # keep "_" for IP use; put your domain if you have one

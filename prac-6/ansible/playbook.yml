@@ -1,0 +1,10 @@
+- name: Deploy Flask + NGINX
+  hosts: all
+  become: true
+  vars:
+    ansible_common_remote_group: "{{ app_user }}"
+    allow_world_readable_tmpfiles: true
+  roles:
+    - common
+    - app
+    - nginx
