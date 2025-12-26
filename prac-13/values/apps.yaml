@@ -1,0 +1,6 @@
+spec:
+  source:
+    repoURL: https://m-stein.gitlab.yandexcloud.net/clouds/clouds.git
+    targetRevision: HEAD
+  destination:
+    server: https://kubernetes.default.svc
